@@ -298,7 +298,7 @@ Choose a file in a standard transcription format, including Google, Amazon, IBM,
 
 # Building an OHMS or Aviary index
 
-The OHMS’ Metadata Model
+## The OHMS’ Metadata Model
 
 The [Oral History Media Synchronizer](https://www.oralhistoryonline.org/) (OHMS) is a web-based application for oral history archival management and features capabilities for multimedia display of synchronized transcripts and timecode indexes. OHMS operates around a particular metadata scheme (OHMS.xsd) and associated xml files (referred to as “OHMS.xml”) for storing and transferring all interview metadata. Instructions for creating a synchronized transcript in OHMS can be found in OHMS documentation at [oralhistoryonline.org](http://oralhistoryonline.org).
 
