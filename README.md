@@ -350,3 +350,265 @@ The marked down segments can also be edited or filled in TIM’s “Preview” a
 
 ![image24](https://user-images.githubusercontent.com/44659242/231961514-74c4403b-c1e0-4b58-a040-4f25b18e23ba.png)
 <br/><em>Figure 18: Preview view in the TIM Editor provides a WYSIWYG view and editor for the four fields available for each index point, associated with segment break timecodes established by markdown in the notes area.</em>
+
+## Exporting to OHMS or Aviary via OHMS.xml
+
+Text constructed with [markdown](#markdown-for-ohmsxml-fields) for an index in TIM editor notes can be exported as OHMS.xml by following these steps:
+
+1. Prepare marked-down text in TIM editor notes (click the “**Preview**” button to check the populated fields of the index).
+
+2. Press on the **export icon** located at the top right corner of the page.
+
+3. Click on the “**Choose Format**” dropdown menu and select **XML (OHMS)**
+
+4. To download the OHMS.xml file to your local computer, click on the blue “**Export**” button
+
+![image14](https://user-images.githubusercontent.com/44659242/235052220-6a0e094f-b90d-430d-9aa8-6dd93d6a4755.png)
+<em>Figure 19: Export menu panel in TIM.</em>
+
+## Uploading OHMS.xml into OHMS
+
+A TIM project that has been exported in XML format (read [Exporting to OHMS or Aviary](#exporting-to-ohms-or-aviary-via-ohmsxml) to learn how) can be uploaded to OHMS by following these steps:
+
+1. Visit [OHMS website](https://ohms.uky.edu/) and log into your account
+
+2. Select the **IMPORT** tab on the top navigation bar
+
+3. Click the **Choose File** button
+
+4. Upload the XML file that was exported from TIM
+
+5. Press the **Save** button
+
+The figure below highlights steps 2, 3, and 5 on OHMS Import page
+
+![image10](https://user-images.githubusercontent.com/44659242/235052418-7b8b2ca8-7be5-4ea8-99c1-fb02dde08bb8.png)
+<em>Figure 20: Import Interviews page in OHMS that allows OHMS users to import XML-indexed files.</em>
+
+Your imported XML-indexed project file will appear under the **INTERVIEWS** tab in your OHMS repository
+
+## Uploading OHMS.xml into Aviary
+
+An OHMS.xml can be brought directly into Aviary from a file assembled, arranged, and exported from TIM. It is an option to bring the file into OHMS first for minor edits or to check the look of the index in that environment.
+
+1. To import an OHMS index into Aviary, the indexer needs to have an Aviary paid account (trial periods are available) and the media file being indexed must be imported into Aviary before and independently of the index. 
+
+2. Once the audio/video–called a “Resource” in Aviary–is in Aviary, an index from TIM can be added to the media. 
+
+3. For the “Resource” created, you must enter a project name. This will be the name that is now associated with this specific “Resource”. In addition, there are “Resource” description metadata fields (duration, publisher, agent, date, description, keywords) that are recommended to be filled out (view figure 1 of this section).
+
+
+4. The OHMS.xml can now be uploaded to this “Resource” by clicking the **Index** tab located on the right-hand panel. Within the Index content section, click on the vertical ellipsis icon to view a dropdown menu of index actions. Select the “Upload another index” option.
+
+5. An **Index Upload** panel will appear that allows you to browse your local computer to select the OHMS.xml, provide a title for the index selected and type a description about the index. Once these fields have been populated click the blue Upload Index button to complete the process of importing the OHMS.xml file.
+
+![image19](https://user-images.githubusercontent.com/44659242/235052619-b0cb22f3-1f83-4a1d-8486-7eee2b6e6857.png)
+<em>Figure 21: A typical Aviary resource with the loaded media file, project name, and resource description.</em>
+
+<img width="489" alt="image8" src="https://user-images.githubusercontent.com/44659242/235052726-ed863ac7-0527-4ffc-a204-c2d9bdffb794.png">
+
+<em>Figure 22: The following dropdown menu in the Aviary resource index tab provides index action options such as upload, create, delete, and so on.</em>
+
+<img width="540" alt="image5" src="https://user-images.githubusercontent.com/44659242/235052790-4feed780-2de1-4ffb-b126-cb237a76e68a.png">
+
+<em>Figure 23: This form allows index files to be uploaded to an Aviary resource by selecting the file on the local device, entering a title for the index, and providing a small description.</em>
+
+# Advanced Topics
+
+## Settings
+
+The Settings menu in TIM allows the users to configure the following:
+
+<u>Add timecode when copying transcript to Notes:</u> Transferring (copy and pasting) text from the transcript panel (text must have been imported or written in acceptable transcript formats such as WebVTT or SRT ) to TIM editor Notes, TIM will recognize the starting timestamp of that specific subtitle/caption and insert a general timecode in front of the copied text. When the box is unchecked, a general timecode will not be added and only the text will be pasted.
+
+<u>Export Notes as Partial Transcript in OHMS XML:</u> Any text not marked down will be identified and associated with the <u>Notes</u> field within the <u>Preview</u> Menu. When checked, this setting dictates that when exported in **XML (OHMS)** format, the <u>Notes</u> fields are converted as <u>Partial Transcript</u> fields. By unchecking the box, the <u>Partial Transcript</u> fields will not appear within the exported OHMS.xml file. It will be exported in a field called “Notes” when exported to a CSV file.
+
+<u>Add sub-second timecodes:</u> Enables timecodes to be recognized in sub-second formats, e.g., to the nearest tenth of a second [hh:mm:ss.d], hundredth of a second [hh:mm:ss.cc]. Using a timecode shortcut keystroke will generate timecodes to the nearest milliseconds [hh:mm:ss.mmm].
+
+<u>Skip forward and back increments (seconds):</u> The number entered will be the interval (in seconds) by which the media file will jump forward or backward when using the ctrl-[ and ctrl-] keystrokes.
+
+<u>Interval between timecodes upon multi-timecode insertion (seconds):</u> The number entered will be the interval (in seconds) between timecodes that are generated by multi-timecode insertion.
+
+![image20](https://user-images.githubusercontent.com/44659242/235053047-cd044f7a-faa7-4172-8239-a581827e5d88.png)
+
+<em>Figure 24: The default setting on the Settings menu panel in TIM</em>
+
+## TIM via command line
+
+### <u>Local Installation</u>
+
+You can clone a copy of TIM and install and run it locally on a PC or mac using the following tools and instructions through the command line. (PC: run > cmd; Mac: via Terminal app)
+
+Install the following prerequisite on your computer. 
+
+* [Node Package Manager](https://www.npmjs.com/) (includes Node.js)
+* [Git](https://git-scm.com/)
+
+In your command line terminal, navigate to a preferred directory for the local installation of the TIM repository. ($ = command line in the current directory, comments in grey.)
+
+<em>Command snippet: Commands for TIM installation</em>
+
+```python
+# Clone the TIM repository
+$ git clone https://github.com/cartograforce/tim.git 
+# Go into the repository (i.e., into the new “tim” folder) 
+$ cd tim 
+# Install dependencies 
+$ npm install
+```
+
+### <u>Running the application</u>
+
+Before proceeding make sure that you have followed the [Installation](#local-installation) steps.
+
+<em>Command snippet: Command to run TIM application locally</em>
+
+```python
+# Within the tim directory, start the application 
+$ npm start
+```
+
+This will run the application locally on your computer. Visit http://localhost:3000 to view it in the browser.
+
+## Structure of TIM’s JSON file
+
+The code snippet below displays the structure of the TIM Project JSON, as exported from TIM for the “Interview with Steve Zahn” project. (For reference, the same indexed interview can be seen in OHMS, here: https://ohms.uky.edu/preview/?id=109967)
+
+<em>Code snippet: Structure of TIM Project JSON file</em>
+
+
+
+```python
+{
+  "id": "f3e74d2e-7b17-4a0d-b318-9469b32d0e53",# Unqiue ID generated by Tim
+  "title": "Interview with Steve Zahn", # The name that the project is saved as
+  "url": "https://www.youtube.com/watch?v=gyJk1UfWrRs", # Video URL
+
+# The notes array contains a dictionary for each line used in TIM Notes. Per dictionary, there is a field named 'children' and within that there is a field named 'text'. The contents of the corresponding TIM notes line is then mapped to the 'text' field.
+  "notes": [
+    {
+      "children": [
+        {
+          "text": "[00:03:24]"
+        }
+      ]
+    },
+    {
+      "children": [
+        {
+          "text": "# Moving to Kentucky"
+        }
+      ]
+    },
+    {
+      "children": [
+        {
+          "text": ">Talks about meeting his wife Robyn Peterman and moving their family to Kentucky and his interest in Kentucky history."
+        }
+      ]
+    },
+    {
+      "children": [
+        {
+          "text": ""
+        }
+      ]
+    },
+    {
+      "children": [
+        {
+          "text": "**Historical markers** **Kentucky history**"
+        }
+      ]
+    }
+  ],
+
+
+# The metadata array contains a dictionary for each index created in TIM Notes
+  "metadata": [
+    {
+      "index": 0, # Index number
+      "timecode": "00:03:24", # The timestamp of the index
+      "time": 204, # Timestamp converted to the number of seconds
+
+# List of all the lines used for this specific index. Each line gets stored in dictionary
+      "lines": [
+        {
+          "index": 1, # Line index number
+          "line": "# Moving to Kentucky", # Contents of the line
+          "empty": false, # States whether the line is empty or not
+          "timecodes": [], # Collects any timecodes recognized within the line
+          "times": [],
+          "matches": [],
+          "keywords": [] # Collects any keywords recognized within the line
+        },
+        {
+          "index": 2,
+          "line": ">Talks about meeting his wife Robyn Peterman and moving their family to Kentucky and his interest in Kentucky history.",
+          "empty": false,
+          "timecodes": [],
+          "times": [],
+          "matches": [],
+          "keywords": []
+        },
+        {
+          "index": 3,
+          "line": "",
+          "empty": true,
+          "timecodes": [],
+          "times": [],
+          "matches": [],
+          "keywords": []
+        },
+        {
+          "index": 4,
+          "line": "**Historical markers** **Kentucky history**",
+          "empty": false,
+          "timecodes": [],
+          "times": [],
+          "matches": [],
+          "keywords": [
+            [
+              "**Historical markers**",
+              "",
+              "**"
+            ],
+            [
+              " **Kentucky history**",
+              " ",
+              "**"
+            ]
+          ]
+        },
+        {
+          "index": 5,
+          "line": "",
+          "empty": true,
+          "timecodes": [],
+          "times": [],
+          "matches": [],
+          "keywords": []
+        }
+      ],
+      "timecodes": [], # List of timecodes recognized within the index
+      "title": "Moving to Kentucky", # Title field for this this specific index
+      "synopsis": "Talks about meeting his wife Robyn Peterman and moving their family to Kentucky and his interest in Kentucky history.", # Synopsis field for this specific index
+      "notes": "", # Any text within this specific index that is not using markup is stored as notes
+      "keywords": "Historical markers, Kentucky history" # Keywords field for this specific index
+    }
+  ],
+  "created": 1673560438173,
+  "updated": 1673579715996
+}
+```
+
+# Future Expansions
+
+## Timecoded notes for live calls
+
+Use TIM to take timecoded notes during a live call that is being recorded by you or someone else.
+
+* Load the following 3-hour count-up timer video into the media player: https://www.youtube.com/watch?v=62cQan4o_Vc
+* Synchronize the timer by playing it when the recording begins (or close to it).
+* Mark timecodes and take notes during the live call.
+* Replace the timer file in TIM with the recorded call file, continue refining the index.
