@@ -48,11 +48,10 @@ const TopBar = ({ player, data: { items = [], skipIncrement, partialTranscript =
 
   const setTitle = useCallback(title => set([id, 'title', title]), [id, set]);
 
-  const handleExport = useCallback(() => exportItem(item, format, partialTranscript), [
-    format,
-    item,
-    partialTranscript,
-  ]);
+  const handleExport = useCallback(
+    () => exportItem(item, format, partialTranscript),
+    [format, item, partialTranscript]
+  );
   const save = useCallback(() => exportItem(item, 'json'), [item]);
 
   return (
@@ -149,13 +148,44 @@ const TopBar = ({ player, data: { items = [], skipIncrement, partialTranscript =
 
         <Settings />
 
-        <ActionButton
+        {/* <ActionButton
           isQuiet
           aria-label="Help"
           onPress={() => window.open('https://github.com/c2dh/tim/wiki', 'noopener,noreferrer')}
         >
           <HelpOutline />
-        </ActionButton>
+        </ActionButton> */}
+
+        <TooltipTrigger delay={0} isDisabled={openIsVisible}>
+          <DialogTrigger type="popover" onOpenChange={isOpen => setOpenIsVisible(isOpen)}>
+            <ActionButton isQuiet aria-label="New">
+              <HelpOutline />
+            </ActionButton>
+            {close => (
+              <Dialog>
+                <Heading as="h1" size="large">Help Sections</Heading>
+                <Divider />
+                <Content>
+                  <h3>
+                    <a href="https://github.com/cartograforce/tim#readme" style={{ textDecoration: 'none', color: 'black' }}>README</a>
+                  </h3>
+                  <h3>
+                    <a href="https://github.com/cartograforce/tim#keyboard-shortcuts-for-media-and-timecodes" style={{ textDecoration: 'none', color: 'black' }} >Keyboard shortcuts</a>
+                  </h3>
+                  <h3>
+                    <a href="https://github.com/cartograforce/tim#markdown-for-ohmsxml-fields" style={{ textDecoration: 'none', color: 'black' }}>Markdown syntax</a>
+                  </h3>
+                </Content>
+                <ButtonGroup>
+                  <Button variant="secondary" onPress={close}>
+                    Cancel
+                  </Button>
+                </ButtonGroup>
+              </Dialog>
+            )}
+          </DialogTrigger>
+          <Tooltip>Help</Tooltip>
+        </TooltipTrigger>
       </Flex>
 
       <Timeline {...{ player, item }} />
