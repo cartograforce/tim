@@ -441,7 +441,7 @@ You can clone a copy of TIM and install and run it locally on a PC or mac using 
 
 Install the following prerequisite on your computer. 
 
-* [Node Package Manager](https://www.npmjs.com/) (includes Node.js)
+* [Node Package Manager](https://www.npmjs.com/) (Run version 16 of Node.js)
 * [Git](https://git-scm.com/)
 
 In your command line terminal, navigate to a preferred directory for the local installation of the TIM repository. ($ = command line in the current directory, comments in grey.)
