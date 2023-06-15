@@ -1,6 +1,5 @@
 import React from 'react';
 import { View } from '@adobe/react-spectrum';
-import MarginLeft from '@spectrum-icons/workflow/MarginLeft';
 
 const Intro = () => (
   <View marginX="size-500">
