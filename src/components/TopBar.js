@@ -167,13 +167,13 @@ const TopBar = ({ player, data: { items = [], skipIncrement, partialTranscript =
                 <Divider />
                 <Content>
                   <h3>
-                    <a href="https://github.com/cartograforce/tim#readme" style={{ textDecoration: 'none', color: 'black' }}>README</a>
+                    <a href="https://github.com/cartograforce/tim#readme" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'black' }}>README</a>
                   </h3>
                   <h3>
-                    <a href="https://github.com/cartograforce/tim#keyboard-shortcuts-for-media-and-timecodes" style={{ textDecoration: 'none', color: 'black' }} >Keyboard shortcuts</a>
+                    <a href="https://github.com/cartograforce/tim#keyboard-shortcuts-for-media-and-timecodes" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'black' }} >Keyboard shortcuts</a>
                   </h3>
                   <h3>
-                    <a href="https://github.com/cartograforce/tim#markdown-for-ohmsxml-fields" style={{ textDecoration: 'none', color: 'black' }}>Markdown syntax</a>
+                    <a href="https://github.com/cartograforce/tim#markdown-for-ohmsxml-fields" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'black' }}>Markdown syntax</a>
                   </h3>
                 </Content>
                 <ButtonGroup>

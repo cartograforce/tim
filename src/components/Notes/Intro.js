@@ -3,15 +3,15 @@ import { View } from '@adobe/react-spectrum';
 
 const Intro = () => (
   <View marginX="size-500">
-    <p>Timecode Indexing Module (0.1.1)</p>
+    <h2>Timecode Indexing Module (0.1.1)</h2>
     <p>
-      Project Manager and Contact:{' '}
+      Project Manager and contact:{' '}
       <a
         href="https://engineering.buffalo.edu/civil-structural-environmental/people/post-docs.html"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Douglas Lambert
+        Douglas Lambert{' '}
       </a>
       (<a href="mailto:bert@buffalo.edu">bert@buffalo.edu</a>)
     </p>
@@ -46,11 +46,7 @@ const Intro = () => (
       >
         DSSN
       </a>
-      , at the{' '}
-      <a href="https://www.buffalo.edu/" target="_blank" rel="noopener noreferrer">
-        University at Buffalo
-      </a>
-      , NY and carried out with the help of {' '}
+      , at the University at Buffalo, NY and carried out with the help of {' '}
       <a href="mailto:nilkumar@buffalo.edu">Nilkumar Dhamecha</a> (Computer science) {' '}
       and <a href="mailto:csauerwa@buffalo.edu">Chris Sauerwald</a> (Information and Library Science).
     </p>
@@ -59,11 +55,7 @@ const Intro = () => (
       <a href="https://www.c2dh.uni.lu/" target="_blank" rel="noopener noreferrer">
         C²DH
       </a>{' '}
-      at the{' '}
-      <a href="https://wwwen.uni.lu/" target="_blank" rel="noopener noreferrer">
-        University of Luxembourg
-      </a>{' '}
-      and supported by the C²DH’s{' '}
+      at the University of Luxembourg and supported by the C²DH’s{' '}
       <a href="https://www.c2dh.uni.lu/people/lars-wieneke" target="_blank" rel="noopener noreferrer">
         Digital Research Infrastructure
       </a>{' '}
@@ -87,7 +79,7 @@ const Intro = () => (
     </p>
     <p>
       For more information, refer to {' '}
-      <a href="https://github.com/C2DH/tim/projects/1" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/cartograforce/tim" target="_blank" rel="noopener noreferrer">
       github.com/cartograforce/tim.
       </a>{' '}
     </p>
