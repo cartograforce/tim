@@ -9,7 +9,7 @@ Jump right in with the **[Quick Start Instructions](#quick-start-instructions)**
 
 This version of **TIM** is a React app forked from the [Centre for Contemporary and Digital History (C²DH)](https://github.com/C2DH) and is maintained by [Douglas Lambert](https://github.com/cartograforce). 
 
-### About TIM and A/V media transcription and indexing 
+## About TIM and A/V media transcription and indexing 
 
 **TIM** is an elegant and flexible tool for creating and enhancing text transcripts using plain text or Markdown formatting. **It is especially useful for generating transcripts and associated metadata for the [Aviary](https://www.aviaryplatform.com) and [OHMS](https://www.oralhistoryonline.org) oral history hosting platforms** where *interactive, synchronized, and searchable transcripts* for A/V media files are desired. 
 
@@ -30,7 +30,7 @@ This version of **TIM** is a React app forked from the [Centre for Contemporary 
 * TIM can be used as a note-taking tool, identifying and recalling precise media content points for future listening/watching.
 
 
-### Quick Start Instructions 
+## Quick Start Instructions 
 
 **Using the hosted web app (*no installation or account/login required*):**
 
@@ -115,7 +115,7 @@ These fields are needed if OMHS XML compatible indexing metadata export is desir
 	
     Select an option and click the blue **Export** button. Your browser will initiate a file download to your local computer. 
     
-### Local Installation
+## Local Installation
 
 To install **TIM** on your local computer and run the web app in your browser without the need for a network connection, please refer to the local installation instructions in the **[Wiki for full user guide and documentation](https://github.com/cartograforce/tim/wiki)**
 
