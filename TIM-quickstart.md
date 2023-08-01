@@ -2,7 +2,7 @@
 
 ## TIM App: for creating and editing OHMS XML –compatible indexed transcripts of A/V media files  
 
-### Introduction
+## Introduction
 **TIM** is a workspace for **creating, developing, and refining timecodes and other metadata** for multimedia audio/video interfaces. Timecode indexes can be added simply by typing keyboard shortcut commands and descriptive text/keywords/synopses in the editing window at any point in the media file. 
 
 Jump right in with the **[Quick Start Instructions](#quick-start)** below, or see the **[Wiki for full user guide and documentation](https://github.com/cartograforce/tim/wiki)** on all features.
@@ -115,5 +115,41 @@ These fields are needed if OMHS XML compatible indexing metadata export is desir
     
 ### Local Installation
 
+To install **TIM** on your local computer and run the web app in your browser without the need for a network connection, please refer to the local installation instructions in the **[Wiki for full user guide and documentation](https://github.com/cartograforce/tim/wiki)**
+
+## Technology Stack
+
+TIM is a simple browser-based application built using the following technologies:
+
+* [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+
+* [React Router](https://reactrouter.com/en/main) - A standard library for routing in React
+
+* [Node Package Manager](https://www.npmjs.com/) - For dependency management
+
+To run the application locally (via command line) the following are also required:
+
+* [Git](https://git-scm.com/)[ ](https://git-scm.com/)- Tool used for source code management
+* [Node.js](https://nodejs.org/en/)[ ](https://nodejs.org/en/)- A runtime environment that’s used to run JavaScript
+
+## License
+
+Usage of TIM is allowed under the [MIT License](https://opensource.org/licenses/MIT). See TIM’s [LICENSE](https://github.com/cartograforce/tim/blob/master/LICENSE) for the full details.
+
+## Versions
+
+The most current browser-based version of the TIM application, with updated documentation and links, can be run from here: [cartograforce.github.io/tim/#/new](https://cartograforce.github.io/tim/#/new). As of Spring 2023, the “cartograforce” GitHub account holds the most active open-source repository for TIM ([github.com/cartograforce](http://github.com/cartograforce)). Douglas Lambert at the University at Buffalo (contact: <bert@buffalo.edu>) continues to take leadership to expand TIM’s capacities and usage, and welcomes proposals for new partnerships to explore further TIM research and development.
+
+The cartografoce repository the Lambert hosts was forked from the first TIM repository (<https://github.com/C2DH/tim>), which was part of a project sponsored by the [University of Luxembourg](https://www.c2dh.uni.lu/) in July - December 2020. Lambert was the project manager of that original [TIM release](https://www.c2dh.uni.lu/thinkering/timecode-indexing-module-creating-multimedia-access-oral-history) (Version 0.1.0). Inspiration for that project included an open source project called [oTranscribe](https://otranscribe.com/).
+
+A parallel version of TIM has been developed in the [TheirStory](https://theirstory.io/) (TS) platform, beginning in 2021. It has added functions and features and is actively maintained by TS (as of May 2023). This indexing module within TS is based on the original release of TIM mentioned above (c2dh, Version 0.1.0), and is available primarily to TS customers or project collaborators. For more information contact Zack Ellis (<zack@theirstory.io>).
+
+## Contacts
+
+Join our mailing list at <timecode.indexing.module@gmail.com>. To be a partner in the next phase of TIM, contact Douglas Lambert <bert@buffalo.edu>.
+
+## Full user guide and software documentation
+
+Please refer to the **[Wiki for full user guide and documentation](https://github.com/cartograforce/tim/wiki)**
 	
 	
