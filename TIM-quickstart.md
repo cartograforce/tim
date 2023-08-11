@@ -156,3 +156,9 @@ Join our mailing list at <timecode.indexing.module@gmail.com>. To be a partner i
 ## Full user guide and software documentation
 
 Please refer to the **[Wiki for full user guide and documentation](https://github.com/cartograforce/tim/wiki)**
+	
+	
+
+
+
+
