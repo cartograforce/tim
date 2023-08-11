@@ -1,6 +1,6 @@
 # Timecode Indexing Module (TIM) 
 
-## TIM App Quick Start Instructions for creating and editing OHMS XML (and other A/V index formats)  
+### TIM App: for creating and editing OHMS XML (and other A/V index formats)  
 
 # Introduction
 
