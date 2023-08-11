@@ -1,6 +1,4 @@
-# Timecode Indexing Module (TIM) 
-
-<h3>TIM App: for creating and editing OHMS XML (and other A/V index formats)</h3>
+# Timecode Indexing Module (TIM): App for creating and editing OHMS XML (and other A/V index formats)
 
 ## Introduction
 
