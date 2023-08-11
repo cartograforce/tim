@@ -2,6 +2,8 @@
 
 ## TIM App Quick Start Instructions for creating and editing OHMS XML (and other A/V index formats)  
 
+# Introduction
+
 **TIM** is a workspace for **creating, developing, and refining timecodes and other metadata** for multimedia audio/video interfaces. Timecode indexes can be added simply by typing keyboard shortcut commands and descriptive text/keywords/synopses in the editing window at any point in the media file. 
 
 Jump right in with the **[Quick Start Instructions](#quick-start-instructions)** below, or see the **[Wiki for full user guide and documentation](https://github.com/cartograforce/tim/wiki)** on all features.
