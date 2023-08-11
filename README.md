@@ -2,7 +2,7 @@
 
 ### TIM App: for creating and editing OHMS XML (and other A/V index formats)  
 
-# Introduction
+## Introduction
 
 **TIM** is a workspace for **creating, developing, and refining timecodes and other metadata** for multimedia audio/video interfaces. Timecode indexes can be added simply by typing keyboard shortcut commands and descriptive text/keywords/synopses in the editing window at any point in the media file. 
 
