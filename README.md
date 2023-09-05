@@ -148,10 +148,6 @@ The cartografoce repository the Lambert hosts was forked from the first TIM repo
 
 A parallel version of TIM has been developed in the [TheirStory](https://theirstory.io/) (TS) platform, beginning in 2021. It has added functions and features and is actively maintained by TS (as of May 2023). This indexing module within TS is based on the original release of TIM mentioned above (c2dh, Version 0.1.0), and is available primarily to TS customers or project collaborators. For more information contact Zack Ellis (<zack@theirstory.io>).
 
-## Contacts
-
-Join our mailing list at <timecode.indexing.module@gmail.com>. To be a partner in the next phase of TIM, contact Douglas Lambert <bert@buffalo.edu>.
-
 ## Full user guide and software documentation
 
 Please refer to the **[full user guide and documentation](https://github.com/cartograforce/tim/blob/master/TIM-User-Manual.md)**
