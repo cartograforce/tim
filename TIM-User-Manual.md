@@ -135,11 +135,12 @@ TIM has capabilities for indexing media beside oral history interviews. For exam
 
 # Creating and managing TIM projects
 
-TIM is browser-based and can be run from anywhere. Assuming a user has stable internet connection, convenient and reliable access to the web-based TIM program can be found here: <https://cartograforce.github.io/tim/>. TIM can also be run offline, though still via a browser, for special cases where internet reliability is an issue (see Advanced Topics) or when a local installation is desired for other reasons.
+TIM is browser-based and can be run from any compatible web browser. Assuming a user has stable internet connection, convenient and reliable access to the web-based TIM app can be found here: <https://cartograforce.github.io/tim/>. TIM can also be run offline, though still via a local browser without an internet connection (or when a local installation is desired for other reasons). See [Advanced Topics](#Advanced-Topics) for local installation instructions. 
 
-Figure 3b is a workflow diagram for TIM that expands on the [Conceptual Diagram](#overview) for TIM presented above, indicating some additional details about creating and managing TIM projects.
-
-<img width="752" alt="image15" src="https://user-images.githubusercontent.com/44659242/231949774-d25a35cf-1d37-4b4a-8f9e-155a39313739.png"><br/><em>Figure 3. Workflow diagram for TIM.</em>
+Figure 3b is a workflow diagram for TIM that expands on the [Conceptual Diagram](#Overview) for TIM presented above, indicating some additional details about creating and managing TIM projects.
+![](
+https://user-images.githubusercontent.com/44659242/231949774-d25a35cf-1d37-4b4a-8f9e-155a39313739.png)
+_Figure 3. Workflow diagram for TIM_
 
 ## Starting in TIM
 
