@@ -178,6 +178,9 @@ const TopBar = ({ player, data: { items = [], skipIncrement, partialTranscript =
                   <h3>
                     <a href="https://github.com/cartograforce/tim/wiki/Building-an-OHMS-or-Aviary-Index#markdown-for-ohmsxml-fields" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'black' }}>Markdown syntax</a>
                   </h3>
+                  <h3>
+                    <a href="https://github.com/cartograforce/tim/wiki/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'black' }}>Full User Guide Wiki</a>
+                  </h3>
                 </Content>
                 <ButtonGroup>
                   <Button variant="secondary" onPress={close}>
