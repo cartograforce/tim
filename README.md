@@ -150,7 +150,7 @@ A parallel version of TIM has been developed in the [TheirStory](https://theirst
 
 ## Full user guide and software documentation
 
-Please refer to the **[full user guide and documentation](https://github.com/cartograforce/tim/blob/master/TIM-User-Manual.md)**
+Please refer to the **[wiki for full user guide and documentation](https://github.com/cartograforce/tim/wiki)**
 	
 	
 
