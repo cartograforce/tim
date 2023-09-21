@@ -4,7 +4,7 @@
 
 **TIM** is a workspace for **creating, developing, and refining timecodes and other metadata** for multimedia audio/video interfaces. Timecode indexes can be added simply by typing keyboard shortcut commands and descriptive text/keywords/synopses in the editing window at any point in the media file. 
 
-Jump right in with the **[Quick Start Instructions](#quick-start-instructions)** below, or see the **[full user guide and documentation](https://github.com/cartograforce/tim/blob/master/TIM-User-Manual.md)** on all features.
+Jump right in with the **[Quick Start Instructions](#quick-start-instructions)** below, or see the **[wiki for full user guide and documentation](https://github.com/cartograforce/tim/wiki)** on all features.
 
 This version of **TIM** is a React app forked from the [Centre for Contemporary and Digital History (C²DH)](https://github.com/C2DH) and is maintained by [Douglas Lambert](https://github.com/cartograforce). 
 
