@@ -170,10 +170,13 @@ const TopBar = ({ player, data: { items = [], skipIncrement, partialTranscript =
                     <a href="https://github.com/cartograforce/tim#readme" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'black' }}>README</a>
                   </h3>
                   <h3>
-                    <a href="https://github.com/cartograforce/tim#keyboard-shortcuts-for-media-and-timecodes" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'black' }} >Keyboard shortcuts</a>
+                    <a href="https://github.com/cartograforce/tim#quick-start-instructions" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'black' }}>Quick Start Instructions</a>
                   </h3>
                   <h3>
-                    <a href="https://github.com/cartograforce/tim#markdown-for-ohmsxml-fields" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'black' }}>Markdown syntax</a>
+                    <a href="https://github.com/cartograforce/tim/wiki/The-TIM-Workspace#keyboard-shortcuts-for-media-and-timecodes" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'black' }}>Keyboard shortcuts</a>
+                  </h3>
+                  <h3>
+                    <a href="https://github.com/cartograforce/tim/wiki/Building-an-OHMS-or-Aviary-Index#markdown-for-ohmsxml-fields" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'black' }}>Markdown syntax</a>
                   </h3>
                 </Content>
                 <ButtonGroup>
