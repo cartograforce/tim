@@ -47,8 +47,8 @@ const Intro = () => (
         DSSN
       </a>
       , at the University at Buffalo, NY and carried out with the help of {' '}
-      <a href="mailto:nilkumar@buffalo.edu">Nilkumar Dhamecha</a> (Computer science) {' '}
-      and <a href="mailto:csauerwa@buffalo.edu">Chris Sauerwald</a> (Information and Library Science).
+      Nilkumar Dhamecha (Computer science) {' '}
+      and Chris Sauerwald (Information and Library Science/DSSN).
     </p>
     <p>
       TIM (0.1.0) was sponsored by the{' '}
