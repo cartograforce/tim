@@ -39,21 +39,21 @@ For establishing and refining timecodes in TIM, **users can**:
 
 2. **Establish/Load/Save JSON Project File:** In the **Create** menu, click the **New project** button to begin a new TIM indexing project, or click the **Import** button to upload a saved TIM project file in JSON format. To save your TIM project, click the "floppy disk" **Save** icon at the top right of the project window. This will save your work as a JSON file on your local computer which can then be loaded and edited again later. ***Note:*** Because TIM works with files stored on your local computer and does not upload your work to a server, it's important that local media and JSON files are not moved or renamed within your computer's file system. If files are moved or renamed, opening a saved TIM project from a JSON file will display an error.
 
-![Web app home page](https://user-images.githubusercontent.com/44659242/231949872-f8871c0a-4ebb-4221-95aa-991e5a53fcec.png)
-*The TIM web app start menu*
+![Web app home page](https://github.com/cartograforce/TIM-Wiki-images/blob/d4168ce7db32bc685a2165bde1425803f0253a31/TIM-web-app-homepage.png?raw=true)\
+_The TIM web app start menu_
 
 3. **Load Media:** In an empty TIM project, click the *Choose* **media file** button to load an audio or video file from your local computer *OR* under *or load URL*, paste the direct URL of a media file hosted on the web and click the **Load** button. You can load any media file that has playback support in your browser. 
 
 	* *YouTube, Vimeo, Soundcloud and various other media streaming platform page URLs can be pasted into the **URL** field as-is, others may require a direct link to the media file itself to load.*
 	* *If the media file loads properly a green check mark icon will appear at the end of the URL. If TIM is not able to load a media file from the URL, a red warning icon will appear instead.*
 
-![Blank project - load media](https://user-images.githubusercontent.com/44659242/231949945-bcfdae5c-3890-4eb7-a796-90dc4053f814.png)
-*Load media files in a blank TIM project*
+![Blank project - load media](https://github.com/cartograforce/TIM-Wiki-images/blob/103358cae460c496bc754c0ec9e92effcc23e3d1/TIM-blank-project.png?raw=true)\
+_Load media files in a blank TIM project_
 
 4. **Media Player Features:** Using the playback controls in the floating media player window or the controls in the main toolbar at the top of the TIM project window, you can play/pause, skip forward or back, and control playback speed. You may also use the ESC key on yor keyboard to play/pause the media file. 
 
-![TIM workspace](https://user-images.githubusercontent.com/44659242/231950347-f57d99a4-2bc1-48bb-a657-a6bcb141cd29.png)
-*The TIM project window workspace*
+![TIM workspace](https://github.com/cartograforce/TIM-Wiki-images/blob/d0aee69343bccda841ad89859f28da68a172182e/TIM-workspace.png?raw=true)\
+_The TIM project window workspace_
 
 5. **Essential Keyboard Controls:** In the default **Notes** mode (next to **Preview** tab), you can type freely. Whether the media is playing or paused, add a timecode point to the text by typing  **CTRL-j** (PC) or **CMD-j** (MacOS) at any time.
 
@@ -77,8 +77,8 @@ For establishing and refining timecodes in TIM, **users can**:
 
 6. **OHMS.xml fields and Markdown Syntax:** Clicking on the **Preview** button at the top of the text editing window switches to **Preview** mode, where the OHMS.xml segment times and the **Notes** area [Markdown](https://en.wikipedia.org/wiki/Markdown) can be checked. Here, the title, synopsis, keywords, and partial transcript fields for each OHMS tag/segment appear in distinct input boxes for editing or new composition.
 
-![TIM Preview mode](https://user-images.githubusercontent.com/44659242/231961514-74c4403b-c1e0-4b58-a040-4f25b18e23ba.png)
-*Editing metadata fields in the TIM Preview mode*
+![TIM Preview mode](https://github.com/cartograforce/TIM-Wiki-images/blob/b187077c6381ed51ed5e2ee44801e1a5c6f2a5b8/TIM-preview-mode.png?raw=true)\
+_Editing metadata fields in the TIM Preview mode_
 
 These fields are needed if OMHS XML compatible indexing metadata export is desired. These fields can also be quickly completed by typing ***Markdown-formatted text in the Notes mode***:
 
@@ -93,8 +93,8 @@ These fields are needed if OMHS XML compatible indexing metadata export is desir
 
 ****Note: Only the Segment Break timecode and Section Title text are required fields for OHMS XML export***
 
-![TIM Markdown formatting](https://user-images.githubusercontent.com/44659242/231952602-a2396e3f-de98-4a97-a941-92c9c7432a44.png)
-*Markdown formatting in TIM Notes view*
+![TIM Markdown formatting](https://github.com/cartograforce/TIM-Wiki-images/blob/eb32c537450a0f9340195571240e637b2782154e/TIM-markdown-formatting.png?raw=true)\
+_Markdown formatting in TIM Notes view_
 
 7. **WebVTT with TIM:** TIM can also be used to create, edit, and refine text-based caption files in .vtt or .srt format (such as text transcripts generated by *automatic speech recognition*, or *ASR*) for video media. WebVTT text captions/transcripts can be copy/pasted directly into the TIM Notes view for editing and refinement, and TIM free-form text notes can be formatted using Markdown to create and export WebVTT caption files. WebVTT is an HTML5 compatible caption format and enables rich visual formatting of text captions for display on the Web. 
 
