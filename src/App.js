@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { atom, useRecoilValue } from 'recoil';
 
 import { Flex, View } from '@adobe/react-spectrum';
@@ -27,9 +27,9 @@ const App = () => {
 
   return (
     <Flex direction="column" gap="size-100" height="100vh">
-      <Switch>
+      <Routes>
         <Route exact path={['/', '/tim/']}>
-          <Redirect to="./new" />
+          <Navigate replace to="./new" />
         </Route>
         <Route path={['/new', '/notes/:id', '/metadata/:id', '/tim/new', '/tim/notes/:id', '/tim/metadata/:id']}>
           <View height="size-800">
@@ -48,7 +48,7 @@ const App = () => {
               </View>
             ) : null}
 
-            <Switch>
+            <Routes>
               <Route exact path={['/new', '/tim/new']}>
                 <CreateNote />
               </Route>
@@ -65,15 +65,15 @@ const App = () => {
                 </Flex>
               </Route>
               <Route path="*">
-                <Redirect to="/tim" />
+                <Navigate replace to="/tim" />
               </Route>
-            </Switch>
+            </Routes>
           </Flex>
         </Route>
         <Route path="*">
-          <Redirect to="/tim" />
+          <Navigate replace to="/tim" />
         </Route>
-      </Switch>
+      </Routes>
     </Flex>
   );
 };

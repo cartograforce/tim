@@ -1,5 +1,5 @@
 import React, { useMemo, useCallback } from 'react';
-import { useHistory, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { atom, useRecoilState } from 'recoil';
 
 import { connect } from 'react-redux';
@@ -13,7 +13,7 @@ const transcriptVisibleState = atom({
 });
 
 const Tabs = ({ data: { items = [] }, selected }) => {
-  const history = useHistory();
+  const navigate = useNavigate();
   const { id } = useParams();
 
   const item = useMemo(() => items.find(({ id: _id }) => id === _id), [items, id]);
@@ -25,8 +25,8 @@ const Tabs = ({ data: { items = [] }, selected }) => {
 
   const [transcriptVisible, setTranscriptVisible] = useRecoilState(transcriptVisibleState);
 
-  const tabNav = useCallback(selection => selection.size === 1 && history.push(`/${[...selection].pop()}/${id}`), [
-    history,
+  const tabNav = useCallback(selection => selection.size === 1 && navigate(`/${[...selection].pop()}/${id}`), [
+    navigate,
     id,
   ]);
 

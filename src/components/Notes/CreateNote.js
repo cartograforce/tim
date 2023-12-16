@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useRef, useEffect } from 'react';
 import { connect } from 'react-redux';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
 
 import {
@@ -58,7 +58,7 @@ You can also inject 4 timecodes at the same time by pressing cmd+shift+j. It wil
 `;
 
 const CreateNote = ({ data: { items = [] }, add, trim }) => {
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const [gc, setGc] = useState(false);
   const [file, setFile] = useState(null);
@@ -121,8 +121,8 @@ const CreateNote = ({ data: { items = [] }, add, trim }) => {
     console.log(note);
 
     add(note);
-    history.push(`/notes/${note.id}`);
-  }, [file, format, add, history]);
+    navigate(`/notes/${note.id}`);
+  }, [file, format, add, navigate]);
 
   const createEmptyNote = useCallback(() => {
     const id = uuidv4();
@@ -139,8 +139,8 @@ const CreateNote = ({ data: { items = [] }, add, trim }) => {
       updated: Date.now(),
     });
 
-    history.push(`/notes/${id}`);
-  }, [add, history, items]);
+    navigate(`/notes/${id}`);
+  }, [add, navigate, items]);
 
   const createTutorialNote = useCallback(() => {
     const id = uuidv4();
@@ -157,8 +157,8 @@ const CreateNote = ({ data: { items = [] }, add, trim }) => {
       updated: Date.now(),
     });
 
-    history.push(`/notes/${id}`);
-  }, [add, history, items]);
+    navigate(`/notes/${id}`);
+  }, [add, navigate, items]);
 
   return (
     <Flex direction="row" gap="size-100">

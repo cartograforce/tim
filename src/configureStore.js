@@ -1,4 +1,4 @@
-import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
+import { configureStore } from '@reduxjs/toolkit';
 import { createLogger } from 'redux-logger';
 import { save, load } from 'redux-localstorage-simple';
 
@@ -27,8 +27,7 @@ export const configureAppStore = preloadedState => {
         namespace,
         states: ['data'],
         debounce: 1000,
-      }),
-      ...getDefaultMiddleware(),
+      })
     ],
     preloadedState: load({
       namespace,

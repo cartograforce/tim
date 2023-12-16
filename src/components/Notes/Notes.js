@@ -7,7 +7,7 @@ import { useParams } from 'react-router-dom';
 import { atom, useRecoilState, useRecoilValue } from 'recoil';
 import { connect } from 'react-redux';
 import timecode from 'smpte-timecode';
-import { Redirect } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
 
 import isHotkey from 'is-hotkey';
 import { Slate, Editable, withReact } from 'slate-react';
@@ -486,7 +486,7 @@ const Notes = ({
   </View>*/}
     </Flex>
   ) : (
-    <Redirect to="/new" />
+    <Navigate replace to="/new" />
   );
 };
 

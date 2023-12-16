@@ -1,5 +1,5 @@
 import React, { useCallback, useMemo, useState } from 'react';
-import { useHistory, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import { update, set } from '../reducers/data';
@@ -34,7 +34,7 @@ import Timeline from './Player/Timeline';
 import Settings from './Settings';
 
 const TopBar = ({ player, data: { items = [], skipIncrement, partialTranscript = true }, set }) => {
-  const history = useHistory();
+  const navigate = useNavigate();
   const { id } = useParams();
 
   const item = useMemo(() => items.find(({ id: _id }) => id === _id), [items, id]);
@@ -95,7 +95,7 @@ const TopBar = ({ player, data: { items = [], skipIncrement, partialTranscript =
                     isDisabled={!recent}
                     onPress={() => {
                       close();
-                      history.push(`/notes/${recent}`);
+                      navigate(`/notes/${recent}`);
                     }}
                   >
                     Open
